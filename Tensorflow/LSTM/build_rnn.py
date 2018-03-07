@@ -180,6 +180,6 @@ def get_text_sample(checkpoint, text_length, lstm_size, vocab_size, prime="The "
     return ''.join(samples);
 
 ##train_neural_network();
-checkpoint = 'checkpoints/i25000_l512.ckpt';
-sample_text = get_text_sample(checkpoint, 2000, lstm_size, len(char_to_int), prime="In this decisive year");
+checkpoint = 'checkpoints/i300000_l512.ckpt';
+sample_text = get_text_sample(checkpoint, 2000, lstm_size, len(char_to_int), prime="The new promise");
 print(sample_text);
